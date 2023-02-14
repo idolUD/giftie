@@ -11,7 +11,7 @@ export const IS_SHOW_RESTART = false;
 // 首页配置
 export const homeConfig = {
   // 标题
-  title: '520送礼抽奖',
+  title: '情人节214送礼抽奖',
   // 留言，数组的每一项代表一行
   messages: [
     { key: 'a', wording: '这是第一行文案', },
@@ -19,7 +19,7 @@ export const homeConfig = {
     { key: 'd', wording: '然后，这里是第三行文案', },
   ],
   // 最终解释权归属人
-  owner: 'XXX',
+  owner: '肖先生',
   // 抽奖转盘的动画时间，单位毫秒
   timeout: 5000,
   // 指定赠送的礼物的索引（第几个礼物中奖），取值范围 0-8
@@ -31,12 +31,12 @@ export const homeConfig = {
 // 图片放在 public/images 中，建议是正方形，否则影响视觉体验
 // name 是礼物的全称；alias 是礼物的简称（用来显示在抽奖方格里）
 export const gifts = [
-  { key: 'q', name: 'Dior双飞套装', alias: 'Dior双飞', image: '/images/1.png',  description: '「经典迷人色彩，彰显奢华魅力」' },
-  { key: 'w', name: '腾讯视频终身VIP', alias: 'VIP', image: '/images/2.png',  description: '“为你承包一辈子的 VIP”' },
-  { key: 'e', name: '兰蔻小黑瓶套装', alias: '小黑瓶套装', image: '/images/3.png',  description: '「强维稳，快修护」' },
-  { key: 'r', name: '520红包', alias: '520', image: '/images/6.png',  description: '“想给你唱一百首情歌”' },
-  { key: 't', name: 'Dior星空套装', alias: 'Dior星空', image: '/images/5.png',  description: '「百变唇妆，精美雕琢」' },
+  { key: 'q', name: '中国珠宝黄金豆豆', alias: 'Dior双飞', image: '/images/1.png',  description: '「投资理财神器」' },
+  { key: 'w', name: 'YSL 黑鸦片香水', alias: 'YSL黑鸦片', image: '/images/2.png',  description: '“馥郁香息 以香示爱”' },
+  { key: 'e', name: '飞亚达小绿表', alias: '小绿表', image: '/images/3.png',  description: '「公主的礼物」' },
+  { key: 'r', name: '520红包', alias: '520', image: '/images/6.png',  description: '“520”' },
+  { key: 't', name: 'CL口红', alias: 'CL口红', image: '/images/5.png',  description: '「热烈唇粹 爱意升温」' },
   { key: 'y', name: '1314红包', alias: '1314', image: '/images/6.png',  description: '“从今往后，我都会在你旁边”' },
-  { key: 'u', name: 'UR购物券：¥1,000', alias: 'UR', image: '/images/7.png',  description: '“UR！买！”' },
-  { key: 'i', name: 'Dyson美发套装', alias: '戴森', image: '/images/8.png',  description: '「不同造型需求，全面满足」' },
+  { key: 'u', name: '情人节晚餐', alias: '情人节晚餐', image: '/images/7.png',  description: '“吃吃吃！！”' },
+  { key: 'i', name: '未中奖', alias: '未中奖', image: '/images/8.png',  description: '「机不可失，明年再来」' },
 ];
